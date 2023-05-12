@@ -64,7 +64,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 
 <!-- Hidden -->
 <!-- how can you make your user enticed by the results; how to compell others to take the quiz; -->
-<div class = "w3-container w3-grayscale-min" id = "results">
+<div class = "w3-container w3-grayscale-min" style = "margin-left: 100px; margin-right: 100px;" id = "results">
     <h1 class="w3-center w3-xxxlarge" id = "largeResult"></h1>
     <p class="w3-center w3-xxlarge" id = "smallResult"></p>
     <p class="w3-center w3-large fonta" id = "generalResults"></p>
@@ -164,36 +164,36 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 
     }
     function visualTips(){
-        tipText.innerHTML = "Use graphics to reinforce learning ­­films, slides, illustrations, and diagrams. <br/> Use color coding to organize notes and possessions. <br/> Use flow charts and diagrams for note taking.";
+        tipText.innerHTML = "Use graphics to reinforce learning ­­films, slides, illustrations, and diagrams.<br/> Use color coding to organize notes and possessions.<br/> Use flow charts and diagrams for note taking.";
     }
     function auditoryTips(){
-        tipText.innerHTML = "Use recorded lectures for readings and for taking notes. <br/> Learn by interviewing or by participating in discussions.";
+        tipText.innerHTML = "Use recorded lectures for readings and for taking notes.<br/> Learn by interviewing or by participating in discussions.<br/> Discuss with others from your class and then quiz each other on the material.";
     }
     function kinestheticTips(){
-        tipText.innerHTML = "Engage in experimental learning (making models, doing lab work, and role playing). <br/> Take frequent breaks in study periods. <br/> Memorize or drill while walking or exercising.";
+        tipText.innerHTML = "Engage in experimental learning (making models, doing lab work, and role playing).<br/> Take frequent breaks in study periods.<br/> Memorize or drill while walking or exercising.";   
     }
     function multisensoryTips(){
-        tipText.innerHTML = "Depending on what type of multisensory learner you are, there are different tips for you. <br/> Try searching them up or coming up with some of your own!";
+        tipText.innerHTML = "Depending on what type of multisensory learner you are, there are different tips for you.<br/> Try searching them up or coming up with some of your own!";
     }
     function firstTextOption(){
         genResults.innerHTML = "Changing your Study Time";
-        genText.innerHTML = "If you're someone that likes to cram (and that's fine, this is a safe space), then maybe the time at which you're studying in the final stretch could make the difference. <br/> Try excercising before studying or studying before bed. Not only does exercise fight fatigue, but it can also increase energy levels. <br/> If you’re struggling to find the motivation to study, consider adding an exercise routine to your day. Exercising before you study kickstarts brain function, <br/> improves memory and cognitive performance, and releases endorphins, which can improve your mood and reduce stress levels.";
+        genText.innerHTML = "If you're someone that likes to cram (and that's fine, this is a safe space), then maybe the time at which you're studying in the final stretch could make the difference. Try excercising before studying or studying before bed. Not only does exercise fight fatigue, but it can also increase energy levels. If you’re struggling to find the motivation to study, consider adding an exercise routine to your day. Exercising before you study kickstarts brain function, improves memory and cognitive performance, and releases endorphins, which can improve your mood and reduce stress levels.";
     }
     function secondTextOption(){
         genResults.innerHTML = "Retrieval Practice"
-        genText.innerHTML = "Retrieval practice is based on the concept of remembering at a later time. Recalling an answer to a question <br/> improves learning more than looking for the answer in your textbook. <br/> And, remembering and writing down the answer to a flashcard is a lot more effective than thinking you know the answer and flipping the card over early. <br/> Utilize practice tests or questions to quiz yourself, without looking at your book or notes. <br/> When you make flashcards, instead of flipping them over, write down the answer you think it is on the back, and check.";
+        genText.innerHTML = "Retrieval practice is based on the concept of remembering at a later time. Recalling an answer to a question improves learning more than looking for the answer in your textbook. And, remembering and writing down the answer to a flashcard is a lot more effective than thinking you know the answer and flipping the card over early. Utilize practice tests or questions to quiz yourself, without looking at your book or notes. When you make flashcards, instead of flipping them over, write down the answer you think it is on the back, and check.";
     }
     function thirdTextOption(){
         genResults.innerHTML = "The PQ4R Method";
-        genText.innerHTML = "PQ4R is an acronym that stands for the six steps in the process: Preview, Question, Read, Reflect, Recite, and Review. <br/>Preview the information before you start reading to get an idea of the subject. <br/>Ask yourself questions, such as, What do I expect to learn? What do I already know?<br/>Read the information one section at a time and try to identify answers to your questions. <br/>Did you answer all of your questions? If not, go back and see if you can find the answer. <br/>In your own words, either speak or write down a summary of the information you just read. <br/> Look over the material one more time and answer any questions that have not yet been answered."
+        genText.innerHTML = "PQ4R is an acronym that stands for the six steps in the process: Preview, Question, Read, Reflect, Recite, and Review. Preview the information before you start reading to get an idea of the subject. Ask yourself questions, such as, What do I expect to learn? What do I already know?<br/>Read the information one section at a time and try to identify answers to your questions. Did you answer all of your questions? If not, go back and see if you can find the answer. In your own words, either speak or write down a summary of the information you just read. Look over the material one more time and answer any questions that have not yet been answered."
     }
     function addAlone(){
         thegif.src ="solo.gif";
-        genText.innerHTML = genText.innerHTML + "<br/> Try switching up your study environment! If you like to study at home, try going out to a cafe or a library, and vice versa.";
+        genText.innerHTML = genText.innerHTML + " Switch up your study environment! If you like to study at home, try going out to a cafe or a library, and vice versa.";
     }
     function addPeople(){
         thegif.src = "people.gif"
-        genText.innerHTML = genText.innerHTML + "<br/> Eliminate distractions by silencing your phone and annoying background noises such as the TV or radio. "
+        genText.innerHTML = genText.innerHTML + " Eliminate distractions by silencing your phone and annoying background noises such as the TV or radio. "
     }
 </script>
 
